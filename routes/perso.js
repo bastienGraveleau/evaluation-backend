@@ -3,7 +3,7 @@ const router = express.Router();
 const MongoUtils = require('../mongo');
 let mongoClient = new MongoUtils();
 let db;
-const controllerStuff = require('../controllers/stuff');
+const controllerStuff = require('../controllers/perso');
 const auth = require('../middleware/auth');
 const multer = require('../middleware/multer-config')
 
